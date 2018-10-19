@@ -1,0 +1,499 @@
+body {
+	width: 100%;
+	height: 3600px;
+	margin: 0;
+	padding: 0;
+}
+
+/*Header CSS*/
+
+header {
+	background: #2C3E50;
+	padding: 15px;
+    
+}
+
+.logo {
+    
+}
+
+.logo p{
+    font-size: 24px;
+	color: #d3d2d8;
+    text-transform: uppercase;
+}
+
+.right_content {
+    padding-top: 4px;
+    font-weight: 900
+}
+.left_content {
+	width: 50%;
+	float: left;
+    padding-left: 50px;
+    
+}
+
+
+.navbar {
+	text-align: right;
+    margin-right: 165px;
+}
+
+.navbar ul {}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	text-decoration: none;
+	color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+	color: #18BC9C;
+}
+/* END Header CSS*/
+
+
+/*Profile CSS*/
+
+.profile_bg {
+    background-color: #18BC9C;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	padding: 80px 20px;
+	text-align: center;
+    margin: auto;
+    
+}
+.profile_photo {
+
+    
+}
+
+.profile_content {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    
+}
+.profile_content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.profile_content i {
+    color: white;
+    font-size: 30px; 
+    
+}
+
+.profile_underline {
+    margin-top: -30px;
+    
+}
+
+.profile_underline p {
+    margin-bottom: 30px;
+    
+}
+
+.profile_underline p::before {
+    
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: white;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+
+.profile_underline p::after{
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: white;
+    margin-top: 22px;
+    margin-left: 47px;
+    
+}
+
+.profile_d {
+    
+}
+/*
+
+*/
+
+/* END Profile CSS*/
+
+/*START portfolio CSS*/
+
+/*
+.portfolio_bg {
+    background-color: ;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	padding: 80px 20px;
+	text-align: center;
+}
+*/
+.portfolio_icons_area {
+    background-size: cover !important;
+	padding: 50px 20px;
+}
+
+.portfolio_bg {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio_heading{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.portfolio_content {
+    margin-top: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.portfolio_content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.portfolio_content i {
+    color: black;
+    font-size: 30px;
+}
+
+.portfolio_heading_underline {
+    margin-top: -30px;
+}
+
+.portfolio_heading_underline p {
+    margin-bottom: 30px;
+    
+}
+
+.portfolio_heading_underline p::before {
+    
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: black;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+
+.portfolio_heading_underline p::after{
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: black;
+    margin-top: 22px;
+    margin-left: 47px; 
+}
+/*END portfolio CSS*/
+
+
+/*START portfolio_icons CSS*/
+
+.portfolio_icons {
+    margin-top: 10px;
+    height: 650px;
+}
+
+.icon {
+    width: 25.33%;
+    float: left;
+    padding: 13px 45px;
+    transition: 0.25s all ease;
+    margin: 0px;
+}
+.icon img:hover {
+    transform: translateY(-30px);
+}
+
+.icon img {
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+    transition: all .5s;
+}
+
+/*END portfolio_icons CSS*/
+
+/*START About*/
+
+.about_bg {
+    background-color: #18BC9C;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: auto;
+	padding: 80px 20px;
+	text-align: center;
+}
+.about_content {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    width: 1140px;
+    margin: auto;
+    display: block;
+}
+.about_content h2 {
+    text-transform: uppercase;
+}
+/*
+.about_content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+*/
+.about_content i {
+    color: white;
+    font-size: 30px;
+}
+.about_underline {
+    margin-top: -30px;
+}
+.about_underline p {
+    margin-bottom: 30px;
+}
+.about_underline p::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: white;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+.about_underline p::after {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: white;
+    margin-top: 22px;
+    margin-left: 47px;
+}
+.about_text {
+    margin: 5px:
+}
+.about_text p {
+    width: 44%;
+    float: left;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: initial;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.btn {
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: block;
+    background: #18BC9C;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    margin-top: 30px;
+}
+/*END About*/
+
+/*START Contact area*/
+
+.contact_area {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+.contact_head {
+    margin-top: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+}
+.contact_head p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contact_head i {
+    color: black;
+    font-size: 30px;
+}
+.contct_me {
+    
+}
+.contct_me h2 {
+    text-transform: uppercase;
+}
+.contact_heading_underline {
+    margin-top: -30px;
+}
+.contact_heading_underline p {
+    margin-bottom: 30px;
+}
+.contact_heading_underline::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: black;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+.contact_heading_underline::after {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background: black;
+    margin-top: -50px;
+    margin-left: 58px;
+}
+/*START Form area*/
+.contact_form_area{
+    margin: 10px 10px;
+    position: relative;
+}
+form{
+    
+}
+.form-control {
+    margin-left: 135px;
+    align-items: center;
+}
+input {
+    width:863px;
+    padding: 28px 21px;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #E9ECEF;
+}
+input::placeholder {
+    color: #6C757D;
+    font-size: 25px;
+    margin:none;
+    margin-right: 10px;
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px solid #E9ECEF;
+    width: 900px;
+    margin-left: 133px;
+}
+/*END Form area*/
+
+/*END Contact area*/
+
+/*
+    position: absolute;
+    background: black;
+    margin-top: 22px;
+    content: "";
+    height: 6px;
+    width: 50px; 
+
+
+*/
+/*START footer area*/
+
+.footer_bg {
+    background-color: #2C3E50;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+.footer_content {
+    
+    display: block;
+}
+.footer_text {
+    padding: 10px;
+}
+.location {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.social {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.freelancer {
+    text-align: center;
+}
+
+/*END footer area*/
+
+.sub_footer_bg {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background: #1A252F;
+}
+.sub_footer_text p {
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
